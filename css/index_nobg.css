@@ -227,16 +227,23 @@ body {
     color: rgb(21, 255, 0);
 }
 .bsky-button{
+    padding: 10px;
+    height: 40px;
+}
+.bsky-button-content{
     background: url("/assets/bluesky_logo.svg") no-repeat;
     background-size: contain;
     background-origin: content-box;
     background-position: center;
     filter: brightness(0.7)  sepia(1) hue-rotate(-5deg) saturate(2) drop-shadow(0 0 1px #fda204) drop-shadow(0 0 5px #ffd07e);
-    padding: 5px;
-    height: 32px;
+padding: 0;
+    height: 100%;
+    width: 100%;
+
+
 }
 .bsky-button:hover{
-    filter:none;
+    backdrop-filter:none;
 }
 @media only screen and (max-width: 700px) {
     .container {

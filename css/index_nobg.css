@@ -236,11 +236,9 @@ body {
     background-origin: content-box;
     background-position: center;
     filter: brightness(0.7)  sepia(1) hue-rotate(-5deg) saturate(2) drop-shadow(0 0 1px #fda204) drop-shadow(0 0 5px #ffd07e);
-padding: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
-
-
 }
 .bsky-button:hover{
     backdrop-filter:none;
@@ -250,7 +248,6 @@ padding: 0;
         display: block;
         padding: 4%;
         border-radius:10px;  
-    
         width:300px;
         height:590px;
         left:50%;
@@ -261,7 +258,6 @@ padding: 0;
 
     .about {
         position:relative;
-        
         padding-left: 8%;
         padding-right: 8%;
         padding-top: 5%;
